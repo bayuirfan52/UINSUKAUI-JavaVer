@@ -25,6 +25,5 @@
     <string name="e_learning">E Learning</string>
     <string name="tugas_akhir">Tugas Akhir</string>
     <string name="berita_kampus">Berita Kampus</string>
-    <string name="title_activity_login2">LoginActivity2</string>
     <string name="welcome">"Welcome !"</string>
 </resources>

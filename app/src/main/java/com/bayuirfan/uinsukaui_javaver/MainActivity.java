@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.transparent));
 
-        new Handler(Looper.getMainLooper()).postDelayed((Runnable) () -> {
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();
-        }, 200);
+        }, 1000);
     }
 }
